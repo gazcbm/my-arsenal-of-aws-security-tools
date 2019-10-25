@@ -27,6 +27,8 @@
 * **LambdaGuard**: [https://github.com/Skyscanner/LambdaGuard](https://github.com/Skyscanner/LambdaGuard) - An AWS Lambda auditing tool designed to create asset visibility and provide actionable results.
 * **Komiser**: [https://github.com/mlabouardy/komiser](https://github.com/mlabouardy/komiser) - Cloud Environment Inspector, nalyze and manage cloud cost, usage, security, and governance in one place.
 * **Perimeterator**: [https://github.com/darkarnium/perimeterator](https://github.com/darkarnium/perimeterator) - AWS perimeter monitoring: Periodically scan internet facing AWS resources to detect misconfigured services
+* **PolicySentry**: [https://github.com/salesforce/policy_sentry](https://github.com/salesforce/policy_sentry) - IAM Least Privilege Policy Generator, auditor, and analysis database.
+* **Zeus**: [https://github.com/DenizParlak/Zeus](https://github.com/DenizParlak/Zeus) - AWS Auditing & Hardening Tool 
  
 **Offensive:**
 
@@ -47,6 +49,7 @@
 * **Lambda-Proxy**: [https://github.com/puresec/lambda-proxy/] - A bridge between SQLMap and AWS Lambda, which lets you use SQLMap to natively test AWS Lambda functions for SQL Injection vulnerabilities.
 * **CloudCopy**: [https://github.com/Static-Flow/CloudCopy](https://github.com/Static-Flow/CloudCopy) - Cloud version of the Shadow Copy attack against domain controllers running in AWS using only the EC2:CreateSnapshot permission
 * **enumerate-iam**: [https://github.com/andresriancho/enumerate-iam](https://github.com/andresriancho/enumerate-iam) - Enumerate the permissions associated with AWS credential set
+* **Barq**: [https://github.com/Voulnet/barq](https://github.com/Voulnet/barq) - A post-exploitation framework that allows you to easily perform attacks on a running AWS infrastructure
 
 **Continuous Security Auditing:**
 
@@ -89,6 +92,7 @@
 * **AWS Vault**: [https://github.com/99designs/aws-vault](https://github.com/99designs/aws-vault) - A vault for securely storing and accessing AWS credentials in development environments 
 * **AWS Service Control Policies**: [https://github.com/jchrisfarris/aws-service-control-policies](https://github.com/jchrisfarris/aws-service-control-policies) - Collection of semi-useful Service Control Policies and scripts to manage them 
 * **Half-Life**: [https://github.com/Skyscanner/halflife](https://github.com/Skyscanner/halflife) - AWS Lambda auditing tool that provides a meaningful overview in terms of statistical analysis, AWS service dependencies and configuration checks from the security perspective
+* **Terraform-compliance**: [https://github.com/eerkunt/terraform-compliance](https://github.com/eerkunt/terraform-compliance) - A lightweight, security focused, BDD test framework against terraform (with helpful code for AWS)
 
 **S3 Buckets Auditing:**
 
@@ -127,7 +131,7 @@
 **Training:**
 
 * [http://flaws.cloud/](http://flaws.cloud/) - flAWS challenge to learn through a series of levels about common mistakes and gotchas when using AWS
-* [flaws2.cloud](flaws2.cloud) - flAWS 2 has two paths this time: Attacker and Defender! In the Attacker path, you'll exploit your way through misconfigurations in serverless (Lambda) and containers (ECS Fargate). In the Defender path, that target is now viewed as the victim and you'll work as an incident responder for that same app, understanding how an attack happened. 
+* [http://flaws2.cloud/](http://flaws2.cloud/) - flAWS 2 has two paths this time: Attacker and Defender! In the Attacker path, you'll exploit your way through misconfigurations in serverless (Lambda) and containers (ECS Fargate). In the Defender path, that target is now viewed as the victim and you'll work as an incident responder for that same app, understanding how an attack happened. 
 * [https://github.com/RhinoSecurityLabs/cloudgoat](https://github.com/RhinoSecurityLabs/cloudgoat) - Vulnerable by Design AWS infrastructure setup tool
 * [https://github.com/m6a-UdS/dvca](https://github.com/m6a-UdS/dvca) - Damn Vulnerable Cloud Application [more info](https://medium.com/poka-techblog/privilege-escalation-in-the-cloud-from-ssrf-to-global-account-administrator-fd943cf5a2f6)
 * [https://github.com/sonofagl1tch/AWSDetonationLab](https://github.com/sonofagl1tch/AWSDetonationLab) - Scripts and templates to generate some basic detections of the AWS security services
